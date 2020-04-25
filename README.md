@@ -18,6 +18,6 @@ docker tag name_image riccardoamadio/name_image:0.0.1
 ```
 2. Publish the image on Docker Hub
 ```bash
-docker push riccardoamadio/trackserver:0.0.1
+docker push riccardoamadio/name_image:0.0.1
 ```
 
