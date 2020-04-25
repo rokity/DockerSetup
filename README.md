@@ -11,4 +11,13 @@ Replace the path to the code directory , name_image and name_container.
 ```bash
 docker run --name=name_container -it -v /path/to/code:/app  name_image /bin/bash
 ```
+## Publish a Docker Image
+1. Set a name (tag) to the version of the image 
+```bash
+docker tag name_image riccardoamadio/name_image:0.0.1
+```
+2. Publish the image on Docker Hub
+```bash
+docker push riccardoamadio/trackserver:0.0.1
+```
 
